@@ -1,0 +1,14 @@
+.mainy{
+   color:rgb(255, 255, 255);
+   
+    
+}
+@media (max-width: 768px){
+    .mainy{
+       
+        display: none;
+    }
+    .mainb{
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,103 @@
+.slideshow {
+  
+  width: 100%;
+  max-width: 1600px;
+  height: 659px;
+  margin: auto;
+  overflow: hidden;
+  background-image: url(forest-branch-texture-environment-foliage-pattern-green-jungle-color-insect-darkness-flora-invertebrate-conifer-trees-leaves-outdoors-woods-rainforest-habitat-beetle-screenshot-natural-environment-computer-.jpg);
+  background-size: cover;
+}
+
+img {
+ 
+  height: 500PX;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+  float: right;
+  border-radius: 25%  0% 0% 0%;
+  border: 2px solid rgba(7,27,26,255) ;
+  position: absolute;left: 47%;top: 17%;overflow-x: hidden;
+  box-shadow:  -38px -3px 0px -4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: -38px -3px 0px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: -38px -3px 0px -4px rgba(0,0,0,0.4); 
+  
+}
+.next,.prev{
+  background: none;
+  border: none;
+  color: #0d642a;
+  font-size: 25px;
+  
+
+}
+.detail{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width: 768px){
+  .slideshow {
+  
+    width: 100%;
+    max-width: 768px;
+    height: 659px;
+    margin: auto;
+    overflow: hidden;
+    background-image: url(forest-branch-texture-environment-foliage-pattern-green-jungle-color-insect-darkness-flora-invertebrate-conifer-trees-leaves-outdoors-woods-rainforest-habitat-beetle-screenshot-natural-environment-computer-.jpg);
+    background-size: cover;
+  }
+  img {
+ 
+   display: none;
+    padding: 20PX;
+  }
+  .next,.prev{
+    display: none;
+  }
+
+  
+
+
+}
+::-webkit-scrollbar{
+  width:10px;
+}
+::-webkit-scrollbar-track{
+  background: #ebebeb;
+}
+::-webkit-scrollbar-thumb{
+  background:rgba(7,27,26,255) ;
+  border-radius:50px ;
+
+}
+
+
+
+
+.pet{
+  background-color: rgba(7,27,26,255);
+  
+  border-radius:0%;
+  padding: 30px;
+margin: 10px;
+}
+
+.petimg{
+  background-image: url(dog-5753302.jpg);
+  height: 500px;
+  width: 800px;
+  background-size:cover ;
+
+  border-radius: 0%;
+  border-radius: 10px;
+  box-shadow:25px 0px 20px black;
+
+}
+.pettitle{
+  padding-left: 40px;
+  color: #ebebeb;
+  font-size: 50px;
+  position: absolute;
+  right: 3%;top: 130%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
